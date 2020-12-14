@@ -34,8 +34,9 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 > We obtain a result that, ACF decays geometrically wheras, pacf decays upto a single lag, which signifies from thumb rule of model implementation obeying **Box-Jenkins** methodology, model will be closed to AR model
 
 >**Note**: Basic thumb rule:
->a. If ACF decays geometrically, PACF significant upto a certain limit over threshold, then fited model will be AR,
->b. If PACF decays geometrically, ACF significant upto a certain limit over threshold, then fited model will be MA,
->c. If both PACF and ACF decays geometrically over the threshold, then fited model will be ARMA,
+
+* If ACF decays geometrically, PACF significant upto a certain limit over threshold, then fited model will be AR,
+* If PACF decays geometrically, ACF significant upto a certain limit over threshold, then fited model will be MA,
+* If both PACF and ACF decays geometrically over the threshold, then fited model will be ARMA,
 
 3. After 
