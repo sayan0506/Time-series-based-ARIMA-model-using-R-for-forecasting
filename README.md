@@ -23,3 +23,10 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 1. We first do the hypothesis testing for white noise test to check whether the timeseries is white noise or notand also checks the stationarity of the model, we got the result following-
 
 ![ADF test.PNG](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/ADF%20test.PNG)
+
+>The test returns we can proceed for lag order = 11 and timeseries passed hypothesis, and as alternate hypostheis we will process for ARIMA based modelling.
+> Also, the test ensured the stationarity of the series
+
+2. Now we used ACFAuto-correlation-function) and PACF(Partial-auto-correlation function) plots which gives the identification for the p(total number of AR or auro-regression terms) and q(total number of MA or moving-average terms) value for the model. From the below ACF vs PACF plot the identification can be analyzed:
+
+![ACF and PACF plot analysis.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/ACF%20and%20PACF%20plot%20analysis.png)
