@@ -74,6 +74,7 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 
 1. [Time series tutorial](youtube.com/watch?v=4xMCOGO-SMs&list=PLUgZaFoyJafhfcggaNzmZt_OdJq32-iFW)
 2. [ARIMA and time-series theory regarding identification, estimation, diagnostics checking](https://online.stat.psu.edu/stat510/lesson/3/3.3)
+3. [Project link](https://rstudio.cloud/project/2024595)
 
 
 
