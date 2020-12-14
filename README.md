@@ -68,7 +68,7 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 ** The project is implemented using R studio cloud.**
 
 **Paths:**
-**1.** The **R file** corresponds to this projects can be found in [Time-series-based-ARIMA-model-using-R-for-forecasting/ARIMA project files/](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/ARIMA%20project%20files/ARIMA%20based%20time-series.R)
+**1.** The **R file** corresponds to this project and required package details can be found in [Time-series-based-ARIMA-model-using-R-for-forecasting/ARIMA project files/](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/ARIMA%20project%20files/ARIMA%20based%20time-series.R)
 
 **References:**
 
