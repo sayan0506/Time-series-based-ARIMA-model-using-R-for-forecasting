@@ -45,3 +45,8 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 * [ARIMA(1,2,4)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fit%20B.png)
 * [ARIMA(5,1,4)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fit%20C.png)
 * [ARIMA(1,1,1)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Rplot01Residual%20dignostics%20of%20fit%20D.png)
+
+4. Following the thumb rule we fitted two more combinations to AR models at p = 1, and number of differenciations are 0, 1 respectively are attached in the following:
+
+* [ARIMA(1,0,0)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/fit%20E.png)
+* [ARIMA(1,1,0)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Fit%20F.png)
