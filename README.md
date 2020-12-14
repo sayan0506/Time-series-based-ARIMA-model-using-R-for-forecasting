@@ -41,4 +41,7 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 
 3. After PACF and ACF analysis, we tried to fit the series into several ARIMA model for different sets of (p, q, r) values. The residual diagnotics corresponding to all 4 are shown below,
 
-* [ARIMA(5,1,2)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fitA.png)
+* [ARIMA(3,1,4)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fitA.png)
+* [ARIMA(1,2,4)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fit%20B.png)
+* [ARIMA(5,1,4)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Residual%20diagnostics%20of%20fit%20C.png)
+* [ARIMA(1,1,1)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Rplot01Residual%20dignostics%20of%20fit%20D.png)
