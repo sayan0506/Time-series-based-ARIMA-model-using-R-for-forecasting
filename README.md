@@ -30,3 +30,12 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 2. Now we used ACFAuto-correlation-function) and PACF(Partial-auto-correlation function) plots which gives the identification for the p(total number of AR or auro-regression terms) and q(total number of MA or moving-average terms) value for the model. From the below ACF vs PACF plot the identification can be analyzed:
 
 ![ACF and PACF plot analysis.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/ACF%20and%20PACF%20plot%20analysis.png)
+
+> We obtain a result that, ACF decays geometrically wheras, pacf decays upto a single lag, which signifies from thumb rule of model implementation obeying **Box-Jenkins** methodology, model will be closed to AR model
+
+>**Note**: Basic thumb rule:
+>a. If ACF decays geometrically, PACF significant upto a certain limit over threshold, then fited model will be AR,
+>b. If PACF decays geometrically, ACF significant upto a certain limit over threshold, then fited model will be MA,
+>c. If both PACF and ACF decays geometrically over the threshold, then fited model will be ARMA,
+
+3. After 
