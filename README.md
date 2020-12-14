@@ -16,4 +16,9 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 
 ![SPY close prices plot.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/SPY%20close%20prices%20plot.png)
 
+* Our timeseries model must approximately fit the SPY closing price curve.
 
+**Workflow approach:**
+
+1. We first do the hypothesis testing for white noise test to check whether the timeseries is white noise or notand also checks the stationarity of the model, we got the result following-
+[ADF test.PNG](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/ADF%20test.PNG)
