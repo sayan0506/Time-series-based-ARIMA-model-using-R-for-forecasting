@@ -57,10 +57,18 @@ tsdisplay(residuals(fitC), lag.max = 40, main = '(5,1,4) Model Residuals')
 fitD = arima(spy_close_prices, order = c(1,1,1))
 tsdisplay(residuals(fitD), lag.max = 40, main = '(1,1,1) Model Residuals')
 
+# fit arima model with standard order(1,0,0) p=1, q=1, r=4
+fitE = arima(spy_close_prices, order = c(1,0,0))
+tsdisplay(residuals(fitE), lag.max = 40, main = '(1,0,0) Model Residuals')
+
+# fit arima model with standard order(1,0,0) p=1, q=1, r=4
+fitF = arima(spy_close_prices, order = c(1,1,0))
+tsdisplay(residuals(fitF), lag.max = 40, main = '(1,1,0) Model Residuals')
+
 # plots all the ARIMA models
-par(mfrow = c(2,2)) #4 graphs in  a figure
+par(mfrow = c(3,2)) #6 graphs in  a figure
 #auto arima
-# we create forecast vectors for all 4 plots
+# we create forecast vectors for all 6 plots
 # term defines the model forecasting for next 100 days(here)
 term<-100
 fcast1<-forecast(fitA, h = term)
@@ -71,12 +79,18 @@ fcast3<-forecast(fitC, h = term)
 plot(fcast3)
 fcast4<-forecast(fitD, h = term)
 plot(fcast4)
+fcast5<-forecast(fitE, h = term)
+plot(fcast5)
+fcast6<-forecast(fitF, h = term)
+plot(fcast6)
 
 # Mapping accuracy for the 4 forecasting, considering MASE 
 accuracy(fcast1) # 99.14% accuracy
 accuracy(fcast2) # 99.20% accuracy
-accuracy(fcast3) # 99.14% accuracy
+accuracy(fcast3) # 99.28% accuracy
 accuracy(fcast4) # 99.48% accuracy
+accuracy(fcast5) # 100.14% accuracy
+accuracy(fcast6) # 99.67% accuracy
 
-# We can conclude from the MASE accuracy that, ARIMA(1,1,1) is the best fitted one
+# We can conclude from the MASE accuracy that, ARIMA(1,0,0) is the best fitted one
 
