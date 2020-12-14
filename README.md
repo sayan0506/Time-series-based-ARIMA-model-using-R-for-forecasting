@@ -66,5 +66,5 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 ![Fit F.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Fit%20F.png)
 
 Paths:
-1. The R file corresponds to this projects can be found [here](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/ARIMA%20project%20files/ARIMA%20based%20time-series.R)
+1. The R file corresponds to this projects can be found in [Time-series-based-ARIMA-model-using-R-for-forecasting/ARIMA project files/](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/ARIMA%20project%20files/ARIMA%20based%20time-series.R)
 
