@@ -10,6 +10,6 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 
 Plot of the SPY data corrresponding to last 5 years staring from 2015-01-01:
 
-!https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/SPY%20plot.png
+![SPY plot.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/SPY%20plot.png)
 
 
