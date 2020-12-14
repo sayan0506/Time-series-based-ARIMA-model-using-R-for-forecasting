@@ -50,3 +50,19 @@ Here, an implementation of ARIMA based nodel is used to predict the closing pric
 
 * [ARIMA(1,0,0)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/fit%20E.png)
 * [ARIMA(1,1,0)](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Fit%20F.png)
+
+5. We forecasted the price for next 100 days using the 6 fitted models as shown below:
+![forecast.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/forecast.png)
+
+5. After model fitting we calculated the accuracies of the corresponding 6 models, based on MASE errors, we obtained the following
+* ARIMA(3,1,4): 99.14%
+* ARIMA(1,2,4): 99.20%
+* ARIMA(5,1,4): 99.28%
+* ARIMA(1,1,1): 99.48%
+* ARIMA(1,0,0): 100.14%
+* ARIMA(1,1,1): 99.67%
+
+6. Going through all the accuracies we found **ARIMA(1,0,0)** is the best fitted model, which signifies that model is AR based model, where p = 1, is the optimal one, whose model residual plot is the following:
+![Fit F.png](https://github.com/sayan0506/Time-series-based-ARIMA-model-using-R-for-forecasting/blob/main/Images%20and%20Plots/Fit%20F.png)
+
+
